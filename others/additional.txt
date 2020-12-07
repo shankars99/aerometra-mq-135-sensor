@@ -1,0 +1,32 @@
+POWER FUNCTION F1 = F0/x0 * x1 or y = a*x^b
+
+CO2 (10, 2.3),(200,0.8) [ from webplot image attached ]
+m = (log y2 - log y1) / (log x2 - log x1)
+
+m =  -0.3525
+y = [2.3/10^(-0.3525)] * x ^ (-0.3525) =>
+y =  5.0152 * x ^(-0.3525))
+
+ppm = 116.6020682 (Rs/Ro)^-2.769034857 all depends of measured slope
+
+ppm = scale * (Rs/R0)^(-exponential)
+ppm = a * (Rs/R0)^(-b)
+
+
+CO2: ppm = 114.3544 * (rs/ro)^-2.93599 [ the plotly image attached ]
+CO ppm = 662.9382 * (rs/ro)^-4.0241
+Ethanol ppm = 75.3103 * (rs/ro)^-3.1456
+Ammonium NH4 ppm = 102.694 * (rs/ro)^-2.48818
+Toluene ppm = 43.7748 * (rs/ro)^-3.42936
+Acetone ppm = 33.1197 * (rs/ro)^-3.36587
+
+which gives
+119.00283689406935 ( on looking up the values of ppm in the region, for co2 : https://www.co2.earth/)
+943.8215172796514
+407.30675312888224
+140.27483455301254
+38.19197360704412
+49.18784025704627
+
+
+
